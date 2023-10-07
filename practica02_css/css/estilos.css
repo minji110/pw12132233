@@ -51,20 +51,22 @@ header input{
     margin-left: 50px;
     width: 30%;
 }
-#secc01art02 ul{
-    list-style: none;
-}
-#secc01art02 ul li:before{
-    color: #f09;
-    content: "• ";
-}
+
 #secc03art04{
     padding-left: 25px;
     padding-top: 40px;
+    position: absolute;
 }
 #secc03art04 img{
-    float: right;
-    margin-top: 150px;
+    position: relative;
+    margin-right: 10px;
+    left: 25px;
+}
+#secc03art04 img[alt="mono"]{  /*esta fue la unica manera que encontre para que mono pudiese tener diferentes propiedades a las img de facebook y twitter*/
+    position: relative;
+    top: -42px;
+    left: 125px;
+    right: -100px;
 }
 #segundaSeccion article{
    padding-right: 122px;
@@ -84,10 +86,6 @@ header input{
 #terceraSeccion article input[type="button"]{
     background: #8bc500;
     color: white;
-}
-footer img{
-    float: right;
-
 }
 #footersecc{
     background: #4267b3;
@@ -118,6 +116,9 @@ footer img{
     text-align: center;
     line-height: 28px;
 }
+#footerart03 img{
+    margin-right: 10px;
+}
 .colorazul{
     color: #4267b3;
 }
@@ -138,4 +139,8 @@ footer img{
 }
 .nito{
     font-weight: bold;
+}
+.formatonuevo{
+    font-style:italic;
+    font-size: 2em;
 }
