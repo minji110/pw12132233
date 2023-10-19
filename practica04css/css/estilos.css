@@ -1,0 +1,127 @@
+body{
+    border: 1px solid red;
+    font-size: 16px;
+    max-width: 1024px;
+    position: relative;
+    font-family: sans-serif;
+}
+header article{
+    padding: 10px;
+}
+#art1{
+    width: 600px;
+}
+header nav ul{
+    padding: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    list-style: none;
+    font-family: sans-serif;
+} 
+hr{
+    color: lightgrey;
+}
+#art2{
+    position: absolute; /* Usamos posición absoluta para posicionar #art2 */
+    top: 0; /* Lo movemos a la parte superior */
+    right: 0; /* Lo movemos a la derecha */
+    padding: 0;
+}
+#art2art1 img{
+    max-width: 35px;
+    max-height: 35px;
+    text-align: right;
+}
+#art2art2 img{
+    margin-left:-50px;
+    max-width: 80px; 
+    max-height: 100px;
+}
+#art2art3 img{
+    max-width: 35px;
+    margin-left: -83px;
+    margin-top: -20px;
+}
+#sec01 article{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-top: 10px;
+}
+#sec01art1{
+    margin-left: 10px;
+    width: 50%;
+}
+#sec01art1 img{
+    max-width: 528px;
+    max-height: 167px;
+}
+#sec01art2{
+    max-width: 50%;
+    position: relative;
+}
+#sec01art2 img{
+    position: relative;
+}
+#sec01art2 img:nth-child(1){
+    max-width: 105px;
+    height: 61px;
+    bottom: 20px;
+    left: 28px;
+    z-index: 1;
+}
+#sec01art2 img:nth-child(2){
+    max-width: 342px;
+    height: 419px;
+    top: 0;
+    right: 65px;
+    z-index: 0;
+}
+#sec02{
+    display: flex;
+    align-items: center;    /*para que tanto las img y el texto esten alineados*/
+    margin: 20px 15px;
+}
+#sec02 img {
+    max-width: 90px;
+    height: auto;
+}
+#sec02 p{
+    flex-grow: 1;
+}
+footer article{
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px 15px 0px 15px;
+}
+.estilo1{
+    border-style: dashed;
+}
+.estilo2{
+    border-style: solid;
+    width: 150px;
+}
+.titulo{
+    font-size: 3.5em;
+    font-family: Sans-serif;
+}
+.nito{
+    font-weight: bold;
+}
+.letra-gris{
+    color: #878978;
+}
+.letra-verde{
+    color: #9af864;
+}
+.tam-mediano{
+    font-size: 0.8em;
+}
+.largo.estilo2 {
+    border-style: solid; /* Puedes cambiar el estilo del borde según tus preferencias */
+    width: 248px; /* Ajusta el ancho deseado para el <hr> */
+    color: lightgrey;
+}

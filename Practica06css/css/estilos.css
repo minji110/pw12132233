@@ -1,0 +1,120 @@
+body{
+    /*border: 1px solid red;*/
+    font-size: 16px; /*1em*/
+    margin: auto;
+    max-width: 1024px;
+    background-color:black;
+    font-family: 'Lucida Sans';
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#art01{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#art01 img{
+    height: 50px;
+}
+#art02{
+    margin-left:275px;
+}
+#sec01{
+    background-color: #DADBF1;
+    text-align: center;
+    /* display: flex; 
+    justify-content: center;
+    align-items: center;*/
+    padding: 13%;
+}
+#sec01 input[type="text"] {
+    position: relative;
+    width: 567px;
+    height: 50px;
+    font-size: 2em;
+}
+#sec01 input[type="text"]::after{
+    content: "→";
+    position: absolute;
+    right: 10px;
+} 
+#sec02{
+    background-color: white;
+    padding-top: 63px;
+}
+#sec02 img{
+    height: 97px;
+    /* width: 76px; */
+    margin: -21px 19px 10px 20px;
+}
+#sec02 article{
+    display: flex;
+    /* align-items: center; */
+    /* text-align: left; */
+    height: 200px;
+}
+#sec02art01 article{
+    width: 50%;
+    text-align: left;
+}
+#sec02art02 article{
+    width: 50%;
+    text-align: left;
+}
+#sec02art03 article{
+    width: 50%;
+    text-align: left;
+}
+footer{
+    background-color: black;
+}
+footer article{
+    height: 270px;
+    width: 194px;
+    vertical-align: top;
+    padding-top: 50px;
+    display: inline-block;
+}
+footer article:nth-child(1){
+    padding-left: 32px;
+}
+#footer-hijo-abajo{
+    /*border: 1px solid white;*/
+    position: relative;
+    top: 72px;
+}
+#footer-hijo-abajo img{
+    height: 50px;
+}
+.cuadrados{
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    justify-content: left;
+}
+.boton-negro{
+    background-color: black;
+    border-radius: 6px;
+    color: white;
+    border-color: white;
+}
+.boton-azul{
+    background-color: #4E71D9;
+    border-radius: 6px;
+    color: white;
+}
+.letra-blanca{
+    color: white;
+}
+.letra-azul{
+    color: blue;
+}
+.letra-grande{
+    font-size: 4em;
+}
+.nito{
+    font-weight: bold;
+}
