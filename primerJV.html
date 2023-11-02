@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const pi=3.1416; //constante
+    //pi=3.14;
+    var a=22;
+    var b;
+    //valor undefined definido var b;
+    //no tiene valor y se le debe de asignar un valor
+    document. writeln("valor de a "+a);
+    if (b!=undefined){
+        document.writeln("valor de b "+b);
+    }
+    //document. writeln ("valor de z "+z);
+    for (let a=0;a<=10;a++) {
+        document. writeln(a);
+    }
+    //usar let
+    document. writeln(a);
+    alert ("HOLA JAVASCRIPT");
+    let n=prompt ("Dame tu nombre");
+    if (n!=null){
+        document. writeln("<br>"+n);
+        //abre un cuadro de texto para escribir en el
+    }
+    let y=8;
+    let z=2;
+    document. writeln("<br>");
+    document. writeln("la suma fue "+(y+z));
+    //para que no se concatene una operación, poner dentro de un parentesis //document. writeln(suma: ${y}+$(z})
+    document.writeln(`suma: ${y} + ${z}`);
+    function suma (a,b){
+        return a+b;
+    }
+    </script>
+</body>
+</html>
