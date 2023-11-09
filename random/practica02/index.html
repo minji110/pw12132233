@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="cantidad">Peliculas Aleatorias de marvel</label>
+    <br>
+    <input type="search" placeholder="ingresa una cadena de caracteres" id="pelicula">
+    <button onclick="apirandommovie();">
+        Random Movie
+    </button>
+    <p></p>
+    <!-- art#caja -->
+    <article id="caja">
+        <br>
+        <img src="" alt="" id="foto" style="border-radius: 100px;"> <br>
+        <span id="nombre"></span> <br>
+        <span id="descripcion"></span>
+    </article> 
+    <button onclick="anterior();">🡐Anterior</button>
+    <button onclick="siguiente();">Siguiente ➜</button>
+    <script src="marvel.js"></script>
+</body>
+</html>
