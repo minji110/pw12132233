@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="cantidad">Peliculas Aleatorias de marvel</label>
+    <label for="heroe">Superheroe de marvel</label>
     <br>
-    <input type="search" placeholder="ingresa una cadena de caracteres" id="pelicula">
-    <button onclick="apirandommovie();">
-        Random Movie
+    <input type="text" id="heroe">
+    <button onclick="apibuscarheroe();">
+        Buscar
     </button>
     <p></p>
     <!-- art#caja -->
@@ -19,6 +19,7 @@
         <img src="" alt="" id="foto" style="border-radius: 100px;"> <br>
         <span id="nombre"></span> <br>
         <span id="descripcion"></span>
+        <span id="comics"></span>
     </article> 
     <button onclick="anterior();">🡐Anterior</button>
     <button onclick="siguiente();">Siguiente ➜</button>
