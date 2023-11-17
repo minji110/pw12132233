@@ -1,4 +1,15 @@
 {
+  "name": "crudnodejs",
+  "version": "1.0.0",
+  "description": "API sistema de maestros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Erro: no test specificied\" && exit 1",
+    "start": "node app.js", 
+    "dev":"nodemon app.js"
+  },
+  "keywords": ["API", "MAESTROS","PW"],
+  "author": "Airam Guadalupe Quiñonez Moreno",
   "dependencies": {
     "express": "^4.18.2",
     "express-myconnection": "^1.0.4",
