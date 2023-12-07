@@ -1,0 +1,90 @@
+nav{
+    text-align: end;
+    background-color: #f7f8fb;
+    margin-bottom: 50px;
+}
+nav a {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 5px;
+}
+nav a.router-link-exact-active {
+    color: #2196f3;
+}
+nav img{
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    left: -4px;
+}
+footer{
+    background-color: #004678;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-right: 2%;
+    text-align: right;
+    color: #f7f8fb;
+}
+#lista{
+    right: 0;
+}
+div{
+    background-color: white;
+    padding-bottom: 8%;
+    align-items: center;
+    justify-content: center;
+}
+div table{
+    /*border: 1px solid black;*/
+    border-collapse: collapse;
+    display: inline-table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+th{
+    color: white;
+}
+th,td{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: 1px solid #001c42;
+}
+thead{
+    background-color:#005187;
+}
+input[type="text"] {
+    line-height: 20px;
+    padding: 0 20px;
+}
+button{
+    border: none;
+    line-height: 33px;
+    padding: 0 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#boton-nuevo{
+    background-color: #344c74;
+    color: white;
+    line-height: 50px;
+    font-size: 1.15em;
+}
+#boton-carga{
+    background-color: #344c74;
+    color: white;
+}
+.GruposLista {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+.letra-grande-titulo{
+    font-size: 1.5em;
+}
+.nito{
+    font-weight: bold;
+}
